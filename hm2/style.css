@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: (1200px, 100%);
+  margin-inline: auto;
+  padding: 30px;
+}
+.parents {
+  height: 90vh;
+}
+main {
+  width: 350px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 35px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.child1 {
+  height: 25%;
+}
+img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.following {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 250px;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  background-color: yellow;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.bottom {
+  padding: 5px;
+  color: gray;
+}
+.h {
+  color: rgb(0, 110, 255);
+  position: relative;
+  left: 22px;
+}
+h2 {
+  color: rgb(0, 110, 255);
+  position: relative;
+  left: 10px;
+}
+.child3 {
+  border-radius: 255px;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 340px;
+  left: 120px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
